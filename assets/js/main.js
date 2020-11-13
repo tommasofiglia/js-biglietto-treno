@@ -22,4 +22,4 @@
    var finalPrice = distancePrice - discount ;
 
 // Scrittura a schermo del prezzo finale
-   document.getElementById('price').innerHTML = "Il prezzo finale del tuo biglietto è" + " " + finalPrice ;
+   document.getElementById('price').innerHTML = "Il prezzo finale del tuo biglietto è" + " " + finalPrice.toFixed(2) ;
